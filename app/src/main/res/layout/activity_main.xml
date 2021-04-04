@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/aufgabe"
+        android:layout_width="417dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginBottom="607dp"
+        android:text="Aufgabe"
+        android:textColor="@color/darkPink"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+
+    <LinearLayout
+        android:layout_width="399dp"
+        android:layout_height="406dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginBottom="150dp"
+        android:orientation="vertical"
+        android:weightSum="5.2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aufgabe">
+
+
+
+        <Button
+            android:id="@+id/nulll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="@color/darkPink"
+            android:onClick="prüfen"
+            android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
+            android:tag="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content"></TextView>
+
+
+
+        <Button
+            android:id="@+id/eins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:onClick="prüfen"
+            android:textColor="@color/darkPink"
+            style="?android:attr/borderlessButtonStyle"
+            android:tag="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content"></TextView>
+
+
+
+        <Button
+            android:id="@+id/zwei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/darkPink"
+            android:onClick="prüfen"
+            android:tag="2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content"></TextView>
+
+        <Button
+            android:id="@+id/drei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/darkPink"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/button_background"
+            android:onClick="prüfen"
+            android:tag="3" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/punktestand"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="15dp"
+        android:text="Punktestand: 0"
+        android:textColor="@color/darkPink"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/aufgabe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/zeit"
+        android:textColor="@color/darkPink"
+        android:layout_width="119dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="11dp"
+        android:text="0:15"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/aufgabe"
+        app:layout_constraintEnd_toStartOf="@+id/punktestand"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
