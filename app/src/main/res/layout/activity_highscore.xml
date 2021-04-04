@@ -63,9 +63,10 @@
 
     <TextView
         android:id="@+id/text"
-        android:layout_width="0dp"
-        android:layout_height="188dp"
+        android:layout_width="396dp"
+        android:layout_height="118dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="8dp"
         android:text="Super, du hast es geschafft! Ob du wirklich gut warst, siehst du wenn du deinen Highscore gebrochen hast :D"
         android:textAlignment="center"
@@ -86,6 +87,7 @@
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="@color/darkPink"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -98,7 +100,7 @@
         android:layout_marginEnd="8dp"
         android:text="Highscore: "
         android:textAlignment="center"
-        android:textColor="@android:color/black"
+        android:textColor="@color/darkPink"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/highscore"
