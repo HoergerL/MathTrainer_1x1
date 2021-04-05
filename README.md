@@ -1,4 +1,4 @@
-# Currency Converter
+# MathTrainer 1x1
 
 #### Created in March 2020
 
