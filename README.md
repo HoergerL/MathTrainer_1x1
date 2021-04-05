@@ -2,7 +2,7 @@
 
 #### Created in March 2020
 
-This is a really simple app to train the 1x1, which is designated to my little sister. Sadly she didn't want to do maths, even with that app, so I never implemented more features. :(
+This is a really simple app to train the 1x1, which is dedicated to my little sister. Sadly she didn't want to do maths, even with that app, so I never implemented more features. :(
 
 <p> &nbsp </p>
 
