@@ -2,17 +2,13 @@
 
 #### Created in March 2020
 
-This is a really simple app to train the 1x1, which is dedicated to my little sister. Sadly she didn't want to do maths, even with that app, so I never implemented more features. :(
+This is a really simple app to practice the multiplication table up to 100 (german: 1x1), dedicated to my little sister. Sadly she didn't want to do maths, even with this app, so I never implemented more features. :(
 
 <p> &nbsp </p>
 
 ## How it works
+The app generates a task from the multiplication table to solve and gives the user 4 possible answers to choose from. To make it a little bit more difficult the answers are not completely randomized, but close to the result. The answer has to be submitted in under 5 seconds. If either the time runs out or the wrong answer has been chosen, the screen is will be colored red for 0.5 seconds and the player loses a point. If the answer is correct, the screen flashes green for 0.5 seconds and a point is awarded instead. In both cases the player gets a toast message as feedback. After a total of 30 seconds has passed the game is over and the current score alongside the highscore is displayed. The player may start again or leave the app at this point.
 
-The app creates a math task from the 1x1 and shows 4 different possible solutions. 
-To make it a little bit more difficult the answers are not completely randomized, but close to the result.
-You have to answer the task in between 5s. If you are not able to or if you answer wrong, the screen will be colored red for 0,5s and you will lose one point.
-When you answer right, the screen turns green for 0,5s and you get one point. In any case you get a toast-message, which shows you feedback.
-After 30s the game is up and the app shows your points and your highscore. From there you can try again or leave the app.
 
 <p> &nbsp </p>
 
